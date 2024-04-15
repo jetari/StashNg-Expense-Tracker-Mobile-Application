@@ -118,7 +118,7 @@ function TransactionSummary({
   // Helper function to format monetary values
   const formatMoney = (value: number) => {
     const absValue = Math.abs(value).toFixed(2);
-    return `${value < 0 ? "-" : ""}$${absValue}`;
+    return `${value < 0 ? "-" : ""}#${absValue}`;
   };
 
   return (
